@@ -1,0 +1,28 @@
+{
+  "name": "dothiv/dothiv-moneyformat-bundle",
+  "description": "MoneyFormatBundle for the Symfony Framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Markus Tacker",
+      "email": "m@tld.hiv"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Dothiv\\Bundle\\MoneyFormatBundle\\": ""
+    }
+  },
+  "target-dir": "Dothiv/Bundle/MoneyFormatBundle",
+  "minimum-stability": "stable",
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+    "symfony/framework-bundle": "~2.3",
+    "phpoption/phpoption": "1.4.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
