@@ -20,7 +20,9 @@
   },
   "require": {
     "symfony/framework-bundle": "~2.3",
-    "phpoption/phpoption": "1.4.*"
+    "phpoption/phpoption": "1.4.*",
+    "symfony/framework-bundle": "~2.3",
+    "twig/extensions": "1.0.*"
   },
   "require-dev": {
     "phpunit/phpunit": "*"

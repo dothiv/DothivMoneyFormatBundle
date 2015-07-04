@@ -1,0 +1,10 @@
+parameters:
+    dothiv_moneyformat.twig_extension.money_format.class: Dothiv\BaseWebsiteBundle\Twig\Extension\MoneyTwigExtension
+
+services:
+    dothiv_moneyformat.twig_extension.money_format:
+        class: %dothiv_moneyformat.twig_extension.money_format.class%
+        tags:
+         - { name: twig_extension }
+        arguments:
+         - @dothiv_moneyformat.money_format
