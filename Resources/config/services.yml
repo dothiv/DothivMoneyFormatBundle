@@ -1,0 +1,12 @@
+parameters:
+    dothiv_moneyformat.money_format.class: Dothiv\Bundle\MoneyFormatBundle\Service\MoneyFormatService
+    dothiv_moneyformat.number_format.class: Dothiv\Bundle\MoneyFormatBundle\Service\NumberFormatService
+
+services:
+    dothiv_moneyformat.number_format:
+        class: %dothiv_moneyformat.number_format.class%
+
+    dothiv_moneyformat.money_format:
+        class: %dothiv_moneyformat.money_format.class%
+        arguments:
+        - @dothiv_moneyformat.number_format
