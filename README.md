@@ -4,7 +4,7 @@
 
 [![Code Climate](https://codeclimate.com/github/dothiv/DothivMoneyFormatBundle/badges/gpa.svg)](https://codeclimate.com/github/dothiv/DothivMoneyFormatBundle)
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/d3e8ebf3-1c0c-4696-9ab4-5dc9bc437885/big.png)](https://insight.sensiolabs.com/projects/d3e8ebf3-1c0c-4696-9ab4-5dc9bc437885)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a1c02bc5-b898-4ed6-8660-28fff1c2bef4/big.png)](https://insight.sensiolabs.com/projects/a1c02bc5-b898-4ed6-8660-28fff1c2bef4)
 
 This is a Symfony2 bundle for formatting money values.
 
