@@ -1,5 +1,5 @@
 parameters:
-    dothiv_moneyformat.twig_extension.money_format.class: Dothiv\BaseWebsiteBundle\Twig\Extension\MoneyTwigExtension
+    dothiv_moneyformat.twig_extension.money_format.class: Dothiv\Bundle\MoneyFormatBundle\Twig\Extension\MoneyTwigExtension
 
 services:
     dothiv_moneyformat.twig_extension.money_format:
